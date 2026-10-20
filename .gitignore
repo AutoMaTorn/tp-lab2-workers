@@ -1,0 +1,18 @@
+# Результаты сборки
+build/
+out/
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+.vs/
+x64/
+Debug/
+Release/
+cmake-build-*/
+
+# Файлы, которые программа сохраняет во время работы (пример в examples/ оставляем)
+*.txt
+!CMakeLists.txt
+!examples/*.txt
